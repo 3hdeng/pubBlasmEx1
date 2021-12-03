@@ -3,6 +3,12 @@ $ vim .gitattributes
 * binary
 
 //===
+$ git branch gh-pages
+fatal: Not a valid object name: 'master'.
+--> must git commit master branch first ?
+ 
+
+
 //===
 https://git.3hdeng.me/pubBlasmEx1/GameofLife 
 work in debug mode by "dotnet run"
