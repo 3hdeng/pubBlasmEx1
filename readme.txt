@@ -6,6 +6,11 @@ $ vim .gitattributes
 $ git branch gh-pages
 fatal: Not a valid object name: 'master'.
 --> must git commit master branch first ?
+-->
+$ git add readme.txt
+$ git commit -m "master branch readme.txt"
+$ git branch gh-pages
+
  
 
 
