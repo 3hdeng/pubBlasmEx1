@@ -6,6 +6,17 @@ to server dll files
 $ vim .gitattributes
 * binary
 
+
+//===
+native-c-test,
+include Test.c via NativeFileReference
+<NativeFileReference Include="Test.c" />
+
+
+Test.dll no appeared under _framework/
+--> compiled into ex1.dll or dotnet.wasm ??? 
+
+
 //===
 $ git branch gh-pages
 fatal: Not a valid object name: 'master'.
