@@ -1,4 +1,8 @@
 Published GitHub Pages sites may be no larger than 1 GB. 
+
+need .nojekyll file
+
+to server dll files
 $ vim .gitattributes
 * binary
 
